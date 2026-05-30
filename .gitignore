@@ -1,0 +1,37 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+aicontractagent/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Uploads / test files (optional — remove if you want to commit test contracts)
+*.pdf
+*.docx
+
+# Logs
+*.log
+
+# Future: database
+*.db
+*.sqlite3
